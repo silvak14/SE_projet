@@ -9,11 +9,11 @@ if __name__=="__main__":
 		print(mul(x,y))
 	elif(len(sys.argv)==2):
 		x = int(sys.argv[1])
-		y = (input("Entrez la troisieme valeur svp ? "))
+		y = int(input("Entrez la troisieme valeur svp ? "))
 		print(mul(x,y))
 	elif(len(sys.argv)==1):
-		x = (input("Entrez la deuxieme la valeur svp ? "))
-		y = (input("Entrez la troixieme valeur svp ? "))
+		x = int(input("Entrez la deuxieme la valeur svp ? "))
+		y = int(input("Entrez la troixieme valeur svp ? "))
 		print(mul(x,y))
 	else:
 		print("Desoler erreur")
