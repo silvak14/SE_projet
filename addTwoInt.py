@@ -10,11 +10,11 @@ if(len(sys.argv)==3):
     print (add(x,y))
 elif(len(sys.argv)==2):
     x=int(sys.argv[1])
-    y=(input("veuillez entrer la troisieme valeur:"))
+    y=int(input("veuillez entrer la troisieme valeur:"))
     print(add(x,y))
 elif (len(sys.argv)==1):
-    x=(input("veuillez entrer la deuxieme  valeur:"))
-    y=(input("veuillez entrer la troisieme valeur:"))
+    x=int(input("veuillez entrer la deuxieme  valeur:"))
+    y=int(input("veuillez entrer la troisieme valeur:"))
     print(add(x,y))
 else:
     print("erreur")
